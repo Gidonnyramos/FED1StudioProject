@@ -69,52 +69,64 @@
   <ItemGroup>
     <Content Include="CSS\custom.css" />
     <Content Include="CSS\import.css" />
+    <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
     <Content Include="index.html" />
-    <Content Include="fo\css\font-awesome.css" />
-    <Content Include="fo\css\font-awesome.min.css" />
-    <Content Include="fo\fonts\fontawesome-webfont.svg" />
-    <Content Include="fo\HELP-US-OUT.txt" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="resources\downloads\animations.css" />
+    <Content Include="resources\downloads\h5d-sectioning-flowchart.png" />
+    <Content Include="resources\downloads\killer_portfolio_infographic.jpg" />
+    <Content Include="resources\downloads\PeriodicTableHTMLTags.jpg" />
+    <Content Include="resources\downloads\Request-Response-Cycle.jpg" />
     <Content Include="resources\Index.html" />
+    <Content Include="Sports_Topics\Table Tennis.html" />
+    <Content Include="Sports_Topics\Fonts.html" />
+    <Content Include="Sports_Topics\Badminton.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fo\fonts\fontawesome-webfont.eot" />
-    <Content Include="fo\fonts\fontawesome-webfont.ttf" />
-    <Content Include="fo\fonts\fontawesome-webfont.woff" />
-    <Content Include="fo\fonts\fontawesome-webfont.woff2" />
-    <Content Include="fo\fonts\FontAwesome.otf" />
-    <Content Include="fo\less\animated.less" />
-    <Content Include="fo\less\bordered-pulled.less" />
-    <Content Include="fo\less\core.less" />
-    <Content Include="fo\less\fixed-width.less" />
-    <Content Include="fo\less\font-awesome.less" />
-    <Content Include="fo\less\icons.less" />
-    <Content Include="fo\less\larger.less" />
-    <Content Include="fo\less\list.less" />
-    <Content Include="fo\less\mixins.less" />
-    <Content Include="fo\less\path.less" />
-    <Content Include="fo\less\rotated-flipped.less" />
-    <Content Include="fo\less\screen-reader.less" />
-    <Content Include="fo\less\stacked.less" />
-    <Content Include="fo\less\variables.less" />
-    <Content Include="fo\scss\font-awesome.scss" />
-    <Content Include="fo\scss\_animated.scss" />
-    <Content Include="fo\scss\_bordered-pulled.scss" />
-    <Content Include="fo\scss\_core.scss" />
-    <Content Include="fo\scss\_fixed-width.scss" />
-    <Content Include="fo\scss\_icons.scss" />
-    <Content Include="fo\scss\_larger.scss" />
-    <Content Include="fo\scss\_list.scss" />
-    <Content Include="fo\scss\_mixins.scss" />
-    <Content Include="fo\scss\_path.scss" />
-    <Content Include="fo\scss\_rotated-flipped.scss" />
-    <Content Include="fo\scss\_screen-reader.scss" />
-    <Content Include="fo\scss\_stacked.scss" />
-    <Content Include="fo\scss\_variables.scss" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome-4.7.0\less\animated.less" />
+    <Content Include="font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="font-awesome-4.7.0\less\core.less" />
+    <Content Include="font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="font-awesome-4.7.0\less\icons.less" />
+    <Content Include="font-awesome-4.7.0\less\larger.less" />
+    <Content Include="font-awesome-4.7.0\less\list.less" />
+    <Content Include="font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="font-awesome-4.7.0\less\path.less" />
+    <Content Include="font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="font-awesome-4.7.0\less\variables.less" />
+    <Content Include="font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_variables.scss" />
     <None Include="packages.config" />
+    <Content Include="resources\downloads\Frontend_Development_Roles.pdf" />
+    <Content Include="resources\downloads\HTML5Cheatsheet.pdf" />
+    <Content Include="resources\downloads\LiquidicityCSSHelp.pdf" />
+    <Content Include="resources\downloads\wsu-css-cheat-sheet.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,7 +136,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
-    <Folder Include="Sports_Topics\" />
+    <Folder Include="JS\" />
+    <Folder Include="NewFolder1\" />
     <Folder Include="Stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
