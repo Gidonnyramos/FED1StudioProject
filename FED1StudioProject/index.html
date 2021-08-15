@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--
+    This is an HTML comment. All HTML comments are multiline. These comments will be ignored by the browser when it renders the code. However, comments can be seen in the page source because they are part of the DOM. These are called "server-side" comments.
+
+    Above we can see the doctype declaration. It must be the first line of any HTML document. It tells the browser what type of document it's rendering. The html refers to the HTML5 standard that was introduced in 2012.
+-->
+<html>
+<!-- Indicate that everything within them is written as HTML -->
+<head>
+    <!-- The head tags hold metadata (info about info) about the document. This can be used by  the browser or for SEO. Most of the content in the head is invisible to the user. Common content includes:
+        Title tags: a page title used to display in the browser tab, for bookmarks, and search engines
+        Meta tags: provide information about the HTML document. This is often used for SEO and to help properly render the page in the viewport.
+        Link tags: provide access to CSS files
+        Script tags: provide access to JS code or files
+        -->
+    <meta charset="utf-8" />
+    <meta name="description" content="This is a site description" />
+    <meta name="author" content="Gidonny S. Ramos" />
+    <meta name="keywords" content="Sports Training, Tennis, Badminton, Table Tennis, FED1" />
+
+    <title>Sports Nerds | Home</title>
+    <link href="CSS/custom.css" rel="stylesheet" />
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- The body tags must be placed directly below the head tags.
+        They contain the content to be rendered to the user. You will often
+        also find JavaScript in script tags at the bottom of the body.-->
+
+    <header>
+        <!--
+            A header is a container at the top of a page or section. When placed at
+            the top of a page, they typically contain a site logo that is a link to
+            the home page, navigation, company slogan, or search funtionality.
+            -->
+        <a href="Index.html">
+            <img src="Images/Sandbox-48.png" alt="Cartoon pail and shovel" />
+        </a>
+        <h1>
+            <!-- This is a level 1 heading. Headings specify something important -->
+            Sports Nerds
+        </h1>
+        <p>
+            Notes and resources for Tennis, Badminton, and Table Tennis
+        </p>
+    </header>
+    <nav>
+        <ul>
+            <li class="selected">
+                <a href="Index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li>
+                <a href="CSS.html"><i class="fa fa-css3" aria-hidden="true"></i> CSS</a>
+            </li>
+            <li>
+                <a href="HTML.html">
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    HTML
+                </a>
+            </li>
+            <li>
+                <a href="resources/index.html">
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                    Resources
+                </a>
+            </li>
+            <li>
+                <a href="CSS_Topics/Colors.html">
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                    Colors
+                </a>
+            </li>
+            <li>
+                <a href="CSS_Topics/Fonts.html">
+                    <i class="fa fa-font" aria-hidden="true"></i>
+                    Fonts
+                </a>
+            </li>
+            <li>
+                <a href="CSS_Topics/Images.html">
+                    <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                    Images
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- A main is the container for the primary page content and
+            should only be used once per page.-->
+        <aside>
+            <!--
+                An aside holds content that is indirectly related to the main
+                content of a page or section. This often includes side navigation,
+                blog posts, advertisements, or other helpful information.
+                -->
+            <h2>
+                Key Terms
+            </h2>
+            <p>
+                This is an area where you can list key terms and important notes for FED1.
+            </p>
+        </aside>
+        <section>
+            <h1>
+                Web Sandbox: Intro to HTML
+            </h1>
+            <article>
+                <h2>
+                    Front-end Development
+                </h2>
+                <p>
+                    Front-end development is the tier of full-stack deveopment that deals with the visual elements of an application with which a user interacts. It consists of HTML, CSS, and JavaScript as these are the only languages that a browser can understand.
+                    <br />
+                    If you were to compare this tier of development to a human body, it would be like the skin.
+
+                    <!-- HTML ignores any whitespace after the first character. If you want to add extra whitespace to a page, such as a line break, you need to find another way to do so. -->
+                </p>
+                <section>
+                    <h3>
+                        HTML
+                    </h3>
+                    <p>
+                        Hypertext Markup Language is used to define the content and structure of a web page. It is the most important of the front-end languages because it provides content to the user and gives CSS and JS something to target.
+                    </p>
+                </section>
+                <section>
+                    <h3>
+                        CSS
+                    </h3>
+                    <p>
+                        Cascading Style Sheets are used for the formatting and layout of a web page. It was introduced as a way to separate the concerns of markup and formatting into different files.
+                    </p>
+                </section>
+                <section>
+                    <h3>
+                        JavaScript
+                    </h3>
+                    <p>
+                        JavaScript allows us to make web pages more interactive by performing programming logic in the front end, reacting to page events, and validating form data. It is one of the most prominent development languages in the world.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>
+                    Lorem Ipsum
+                </h2>
+                <p>
+                    Lorem Ipsum is sample text. It is used in the mockup phase of page development to lay out text on the page in order to see how it will format. It comes from the print industry as a way of laying out text content that is nonsensical so that designers can focus on formatting rather than content and so that we don't have to have the final copy of the page content.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor mauris ante, vel iaculis nibh dapibus quis. Nunc sed augue vel felis fringilla iaculis ac fringilla sapien. Mauris pulvinar molestie elementum. Pellentesque venenatis libero vitae orci malesuada, ac placerat est auctor. Sed euismod nisl molestie, vestibulum augue eget, sodales dolor. Praesent nec justo lobortis, pulvinar orci scelerisque, ultrices neque. Fusce quis erat egestas, semper nibh vel, lobortis dolor. Pellentesque suscipit ligula non nunc fermentum interdum. Curabitur interdum porttitor ultricies.
+                </p>
+                <p>
+                    Quisque ornare sapien quis congue aliquam. Donec volutpat auctor ante, a elementum libero semper et. Nullam malesuada arcu quis lorem finibus, ut pellentesque enim imperdiet. Curabitur ac pellentesque neque, id facilisis mi. Nam sit amet elit arcu. Etiam pellentesque aliquam purus, non dapibus quam gravida id. In varius metus quis posuere ullamcorper. Donec placerat tristique suscipit. Vivamus id leo mollis, commodo lectus id, pulvinar lectus. Sed at vehicula nisl, ac elementum mi.
+                </p>
+                <p>
+                    Ut tempus rhoncus diam, et laoreet quam tempor eu. Aliquam velit purus, gravida in arcu a, sodales tincidunt ex. Praesent a tellus eget sapien porttitor malesuada id sed mauris. Nunc semper cursus enim vitae ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ligula sapien, pharetra a rhoncus at, fringilla eu nisi. Suspendisse varius ac nulla eget maximus. Curabitur tristique egestas lectus, vitae auctor nulla euismod nec. Donec sodales metus at lectus sodales, in varius tortor auctor. Maecenas eget turpis a dui ullamcorper accumsan. Proin consectetur nibh a ligula pellentesque convallis. Fusce sed malesuada ex, vitae hendrerit nisl. Suspendisse molestie tortor at malesuada pellentesque.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!-- A footer is a container at the bottom of a page or section containing secondary information such as FAQs, secondary site nav, "About Us" info, and customer service info. -->
+        <!-- HTML character entities are special characters that are placed on the page by using an ampersand followed by some text and a semicolon to indicate which character should be displayed. -->
+        &copy; 2021 Gidonny S. Ramos
+    </footer>
+</body>
+</html>
+
