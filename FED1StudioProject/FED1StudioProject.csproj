@@ -73,10 +73,13 @@
     <Content Include="CSS\custom.css" />
     <Content Include="CSS\import.css" />
     <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
-    <Content Include="HTML.html" />
+    <Content Include="D:\HTML.html">
+      <Link>HTML.html</Link>
+    </Content>
     <Content Include="Images\ben-krygsman-745458-unsplash.jpg" />
     <Content Include="Images\Sandbox-48.png" />
-    <Content Include="index.html" />
+    <Content Include="Images\tennis racket.png" />
+    <Content Include="resources\index.html" />
     <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
@@ -138,7 +141,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS_Topics\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>

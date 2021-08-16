@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="HTML Basics" />
-    <meta name="author" content="Gidonny S Ramos" />
-    <meta name="keywords" content="HTML, FED1, coding, websites" />
+    <meta name="description" content="Sport Nerds Resources" />
+    <meta name="author" content="Gidonny S. Ramos" />
+    <meta name="keywords" content="Sports Training, Tennis, Badminton, Table Tennis, FED1" />
 
-    <title>HTML Basics | Web Sandbox</title>
+    <title>Resources | Sports Nerds</title>
     <link href="CSS/custom.css" rel="stylesheet" />
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
@@ -16,10 +16,10 @@
             <img src="Images/Sandbox-48.png" alt="Cartoon pail and shovel" />
         </a>
         <h1>
-            Web Sandbox
+            Sports Nerds
         </h1>
         <p>
-            Notes and resources for HTML and CSS
+            Notes and resources for Tennis, Badminton, Table Tennis. Horse Riding,  Swimming, and Scuba Diving
         </p>
     </header>
     <nav>
@@ -28,30 +28,20 @@
                 <a href="Index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
             </li>
             <li>
-                <a href="CSS.html"><i class="fa fa-css3" aria-hidden="true"></i> CSS</a>
+                <a href="Classes.html"><i class="fa fa-css3" aria-hidden="true"></i> Classes</a>
             </li>
             <li class="selected">
-                <a href="HTML.html">
+                <a href="Team.html">
                     <i class="fa fa-html5" aria-hidden="true"></i>
-                    HTML
+                  Team
                 </a>
             </li>
-            <li>
-                <a href="resources/index.html">
-                    <i class="fa fa-folder-open" aria-hidden="true"></i>
-                    Resources
-                </a>
+            
             </li>
             <li>
                 <a href="CSS_Topics/Colors.html">
                     <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                    Colors
-                </a>
-            </li>
-            <li>
-                <a href="CSS_Topics/Fonts.html">
-                    <i class="fa fa-font" aria-hidden="true"></i>
-                    Fonts
+                  Contact
                 </a>
             </li>
             <li>
@@ -69,223 +59,67 @@
             </h2>
             <ul class="asideList">
                 <li>
-                    <a href="#basics">HTML Basics</a>
+                    <a href="#basics">Badminton Basics</a>
                 </li>
                 <li>
-                    <a href="#lists">Lists</a>
+                    <a href="#basics">Tennis Basics</a>
                 </li>
                 <li>
-                    <a href="#tags">Semantic and Non-semantic Tags</a>
+                    <a href="#Basics">Table Tennis Basics</a>
                 </li>
                 <li>
-                    <a href="#links">Links</a>
+                    <a href="#Basics">Horse Riding Basics</a>
+                </li>
+                <li>
+                    <a href="#Basics">Swimming Basics</a>
+                </li>
+                <li>
+                    <a href="#links">Scuba Diving Basics</a>
                 </li>
             </ul>
 
             <h2>
-                External Resources
+                External Sports Resources
             </h2>
 
         </aside>
         <section>
             <h1 id="basics">
-                HTML Basics
+               Sports Basics
             </h1>
             <p>
-                HTML enables us to mark up the content to provide it more meaning behind the scenes. This can be used by search engines, screen readers, outlining tools, and readers of our code in general. We can mark a word as an abbreviation, create lists, display code and output, create tables, mark content as quotes, and provide citations. Browsers may or may not implement standard formatting (such as a dotted underline) or standard behavior (such as a tooltip when you hover over that markup) -- but regardless, we can add our own CSS or JavaScript to ensure such things. The point of HTML isn't to get a visual effect. It's to describe and structure your content.
+                The point of tennis is to hit the ball on one bounce over the net. 
             </p>
             <article>
                 <h2>
-                    Block and Inline Tags
+                    The point of table tennis is to hit the ball over the net
                 </h2>
                 <p>
-                    Block level tags are designed to break up the flow of content on the page. By default, they extend the entire width of their parent container and are designed to contain either block level or inline tags. Inline tags, by default, do not break up the flow of content and allow other content to flow next to them. They should only contain other inline elements.
+                    The point of badminton is to hit the ball in the air over the net.
                 </p>
-                <section>
-                    <h3>
-                        Common Block Level Tags
-                    </h3>
-                    <ul>
-                        <li>Headings - Range from level 1 (primary) down to 6 (lowest level). Tags: h1 - h6</li>
-                        <li>Header – a container at the top to introduce a page or section (can be used more than once per page)</li>
-                        <li>Main – a container for primary page content – to be used up to once per page.</li>
-                        <li>Footer – a container at the bottom of a page or section, usually providing closing information like copyright and/or contact information or duplicate or lesser navigation (can be used more than once per page).</li>
-                        <li>Nav – a container intended for links, usually limited to main navigation links within the site or page.</li>
-                        <li>Article – stand-alone content area that could even be on its own page. Typical uses would be articles, blog posts, and important self-contained topics.</li>
-                        <li>Section – subsections that group content together and should contain a heading. Not used simply for styling.</li>
-                        <li>Aside – content that is indirectly associated with the primary content (like pull-quotes, secondary nav blocks, advertisements, etc.)</li>
-                        <li>Div – the most generic of block-level containers. Previously the go-to standard, now the last resort container.</li>
-                        <li>Paragraph - A standard low-level block element for text and images, but one of the few not designed to contain any other block elements.</li>
-                        <li>List - Content broken out (usually with bullet points or numbers) and designed for readability. Tags: ul, ol, dl</li>
-                        <li>Table: Designed for spreadsheet-style, tabular data, with information stored in individual cells laid out in columns and rows. Once used for page layout purposes, the adoption of CSS encourages tables to only be used grids of information for quick scanning, analysis and comparison.</li>
-                        <li>Form: Designed to collect input from the user, typically to be sent to the web server for server-side processing and response.</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>
-                        Common Inline Tags
-                    </h3>
-                    <ul>
-                        <li>img -  an image to be displayed on the page.</li>
-                        <li>a - Anchor tags typically used to create hyperlinks pointing to other locations.</li>
-                        <li>span -  a generic inline element - only exists to target and manipulate it with CSS or JavaScript.</li>
-                        <li>strong - Strong Importance</li>
-                        <li>em - Emphasized</li>
-                        <li>button - an interface element users click on to trigger some programmed functionality.</li>
-                        <li>Input - used to generate one of several types of user input controls, like text boxes, radio buttons or checkboxes</li>
-                        <li>code - example code</li>
-                        <li>samp - Sample output from a computer program</li>
-                        <li>abbr - abbreviation or acronym (although there is an acronym tag, it's fallen out of favor and been merged with abbr)</li>
-                    </ul>
-                </section>
-            </article>
-            <article>
-                <h2 id="lists">
-                    Lists
+                <h2>
+                    The point of horse riding is to stay on the horse while galloping 
                 </h2>
                 <p>
-                    Lists are used to structure text in an orderly way.
-                </p>
-                <h3>
-                    Ordered Lists
-                </h3>
-                <p>
-                    These are used to list items in an ordered way, such as ordered tasks. THey use ol (ordered list) container tags and li (list item) internal tags.
-                </p>
-                <h4>
-                    How to use shampoo
-                </h4>
-                <ol>
-                    <li>
-                        Wash
-                    </li>
-                    <li>
-                        Rinse
-                    </li>
-                    <li>
-                        Repeat
-                    </li>
-                </ol>
 
-                <h3>
-                    Unordered Lists
-                </h3>
-                <p>
-                    These are used when order is unimportant. They use ul (unordered list)container tags with li (list item) internal tags.
                 </p>
-                <h4>
-                    To Do:
-                </h4>
-                <ul>
-                    <li>
-                        Study
-                    </li>
-                    <li>
-                        Clean cat box
-                    </li>
-                    <li>
-                        Sleep
-                    </li>
-                    <li>
-                        Laundry
-                    </li>
-                    <li>
-                        Dishes
-                    </li>
-                </ul>
-
-                <h3>
-                    Definition Lists
-                </h3>
-                <p>
-                    These are used in situations where you want a header / body relationship for your list items. It allows you to use multiple headers and/or multiple bodies. They use dl (definition list) container tags and dt (definition term) and dd (definition defined) internal tags.
-                </p>
-                <h4>
-                    Alien Overlord Conference Schedule
-                </h4>
-                <dl>
-                    <dt>
-                        8am
-                    </dt>
-                    <dd>
-                        Choose humans for food
-                    </dd>
-                    <dt>
-                        9am
-                    </dt>
-                    <dd>
-                        Remaining humans are assigned jobs
-                    </dd>
-                    <dt>
-                        11:30
-                    </dt>
-                    <dd>
-                        Eat more humans
-                    </dd>
-                    <dd>
-                        Terraform Antarctica
-                    </dd>
-                    <dt>
-                        2pm
-                    </dt>
-                    <dt>
-                        4pm
-                    </dt>
-                    <dd>
-                        Q &amp; A with Blogborg the Relentless
-                    </dd>
-                </dl>
-            </article>
-            <article>
-                <h2 id="tags">
-                    Semantic and Non-semantic
-                </h2>
-                <p>
-                    Semantic tags are intended to describe the content they contain, which is true to the generally accepted philosophy behind HTML. Examples of semantic tags would include em and strong. Examples of non-semantic tags are those that just describe the formatting of the content, like i for italic and b for bold. (These tags are a throwback to HTML before CSS was created to handle the appearance of the content.) Typically, the semantic em and strong tags, as well the non-semantic i and b tags, result in italic or bold text, respectively. But saying something looks italic only describes its appearance, whereas marking text up with an em tag means it's emphasized. If we use CSS to change the look of that emphasis (say, changing it to be green and bold), it still makes sense to leave it marked up as emphasized. But it wouldn't make sense for it to still be marked italics if that formatting had been removed. Again - use HTML to apply meaning to content rather than formatting.
-                </p>
-                <h3>
-                    Examples
-                </h3>
-                <p>
-                    <b>This non-semantic tag indicates this text is bold.</b>
-                    <br />
-                    <strong>This semantic tag indicates strong importance.</strong>
-                </p>
-            </article>
+               </article>
             <article>
                 <h2 id="links">
-                    Links
+                 Contact us:
                 </h2>
-                <h3>
-                    Relative vs. Absolute
-                </h3>
-                <p>
-                    These are the two most common types of links. Relative links are for files within your site. Absolute links are for pages and resources outside of your site.
+               
+                    Email us at <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
                     <br />
-                    Here is a <a href="Index.html">relative link to the home page.</a>
+                    
                     <br />
-                    Here is a <a href="/CSS.html">root-relative link to the CSS page.</a>
-                    <br />
-                    Here is an <a href="http://centriq.com" target="_blank">absolute link to Centriq.com</a>
+                    Call us at <a href="tel:+01-816-857-5309">816-857-5309</a>
                 </p>
                 <p>
-                    You can create a link that opens up a new email to a specified email address in the user's configured email client. This pastes the specifed address into the to field of a new email. By convention, the email address should be the text for the link.
-                    <br />
-                    Email me at <a href="mailto:cnuckolls@centriq.com">cnuckolls@centriq.com</a>
-                    <br />
-                    You can also create a link that opens the user's configured phone application with a phone pre-entered. This is most commonly useful for mobile devices.
-                    <br />
-                    Call me at <a href="tel:+01-913-322-7000">913-322-7000</a>
-                </p>
-                <p>
-                    You can also use images as the clickable element:
                     <br />
                     <a href="http://centriq.com" target="_blank">
                         <img src="Images/CentriqLogo.png" />
                     </a>
-                </p>
-                <p>
-                    Named anchor or bookmark links refer to a specific ID on a page. Like all IDs, they are case sensitive and work just like any other CSS ID.
                 </p>
             </article>
         </section>
